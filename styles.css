@@ -1,0 +1,84 @@
+body {
+	background-color: rgb(24, 26, 27);
+	color: rgb(232, 230, 227);
+	padding: 0px;
+	margin: 0px;
+	font-family: firacode;
+}
+
+#header {
+	background-color: rgb(34, 36, 38);
+	color: rgb(178, 172, 162);
+	padding: 0.7ex 0.7ex 0ex 0.8em;
+}
+
+#headerLink {
+	color: #e8e6e3;
+	font-size: 1.92em;
+	text-decoration: none;
+}
+
+#userMenu {
+	background-color: rgb(34, 36, 38);
+	color: rgb(178, 172, 162);
+	padding: 0.7ex;
+	border-bottom: 1px solid #ccc;
+	border-bottom-color: #e8e6e3;
+}
+
+#userMenu a, #navMenu a {
+	color: #e8e6e3;
+	text-decoration: none;
+	padding: 0.5ex 1ex;
+}
+
+#userMenu a:hover {
+	font-weight: bold;
+}
+
+#nav {
+	padding: 0;
+	margin: 0;
+}
+
+#navMenu {
+	float: left;
+	margin: 0 1px 0 0;
+	padding: 1em 0 45em 0;
+	width: 175px;
+}
+
+#navMenu a:hover {
+	text-decoration: underline;
+}
+
+#navMenu ul {
+	padding: 0;
+	margin: 0;
+}
+
+#navMenu li {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	list-style-image: none;
+}
+
+#navMenu li ul {
+	padding-left: 0.6em;
+}
+
+#navMenu li a {
+	display: block;
+	padding: 0.8ex 2em 0.8ex 1em;
+}
+
+#main {
+	padding: 1.5em;
+	margin: 0 0 0 175px;
+	max-width: 50em;
+}
+
+#main p {
+	display: block;
+}
